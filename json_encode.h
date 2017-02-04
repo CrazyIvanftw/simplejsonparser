@@ -2,6 +2,8 @@
 #define JSON_ENCODE_H
 // adding comments for json_encode branch test, and building class skeleton
 #include <string>
+#include "json.h"
+namespace json {
 class json_encode {
 	public:
 	json_encode();
@@ -15,4 +17,11 @@ class json_encode {
 
 };
 
+
+
+/*
+ *	json()
+ *
+ */
+};
 #endif

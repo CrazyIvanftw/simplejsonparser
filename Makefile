@@ -36,7 +36,7 @@ DASM: $(wildcard *.o)
 	objdump -d -l -M intel -S $< > $(d:.=o).dasm
 #	objdump -d -l -M intel -S $< > $(d:.=o).dasm
 test_input:
-	./sjc test.json  
+	./sjc 
 # Targets rely on implicit rules for compiling and linking
 sjc: sjc.o json_encode.o json_decode.o
 

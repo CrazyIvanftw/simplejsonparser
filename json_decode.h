@@ -7,6 +7,8 @@
 #include <string>
 #include <vector>
 #include <utility>
+namespace json {
+
 class json_decode {
 	public:
 		
@@ -20,4 +22,6 @@ class json_decode {
 
 };
 
+	
+}
 #endif
